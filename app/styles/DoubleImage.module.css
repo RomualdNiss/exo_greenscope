@@ -1,0 +1,11 @@
+/* app/components/DoubleImage.module.css */
+  
+
+.container {
+  display: flex;
+  gap:8px;
+}
+
+.container img {
+  border-radius: 6px;
+}

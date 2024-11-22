@@ -1,0 +1,19 @@
+/* app/components/button.module.css */
+  
+.button {
+  border-radius: 6px;
+  color : #946BB6;
+  padding: 0 12px 0 12px;
+  display: flex;
+  gap:8px;
+  align-items: center;
+}
+
+.clair {
+  border: solid 1px #946BB6;
+  background-color: transparent;
+}
+
+.fonce {
+  background-color: #E2D4FE;
+}

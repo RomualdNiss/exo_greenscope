@@ -5,7 +5,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -22,6 +22,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 * {
@@ -39,4 +42,39 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+header {
+  background-color: #fff;
+  position: sticky;
+  color: #3C4A41;
+  height: 88px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex {
+  display: flex;
+}
+
+.marge {
+  width: calc(100vw - 200px);
+  margin: 24px;
+}
+
+.dropdown {
+  transform: translateY(-2px);
+}
+
+h1 {
+  font-family: PP Neue Montreal;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
 }

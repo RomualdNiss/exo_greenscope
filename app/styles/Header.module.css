@@ -1,0 +1,27 @@
+/* app/components/Header.module.css */
+  
+.divheader {
+    justify-content:space-around;
+}
+
+  .navList {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    margin-left:-35px ;
+  }
+  
+  .navList li {
+    color: #3C4A41;
+    opacity: 70%;
+  }
+  
+  .navList li a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .navList li a:hover {
+    text-decoration: underline;
+  }
+  
