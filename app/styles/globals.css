@@ -58,6 +58,9 @@ header {
 .flex {
   display: flex;
 }
+.space-between {
+  justify-content: space-between;
+}
 
 .marge {
   width: calc(100vw - 200px);
@@ -76,5 +79,17 @@ h1 {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  
+  color:#3C4A41;
+}
+
+p {
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #3C4A41B2;
+
 }

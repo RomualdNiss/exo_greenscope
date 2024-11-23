@@ -1,0 +1,28 @@
+/* app/components/partenaires.module.css */
+  
+.carousel {
+  position: relative;
+  width: 100vw;
+  overflow: hidden; /* Cache le contenu qui dépasse */
+}
+
+.track {
+  display: flex;
+  gap: calc(100vw / 6 ); /* Espacement entre les images */
+  animation: scroll 11s linear infinite; /* Animation infinie */
+}
+
+.partnerImage {
+  height: 80px; /* Hauteur des images */
+  object-fit: contain; /* Garde les proportions des images */
+  flex-shrink: 0; /* Empêche la réduction des images */
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0); /* Position initiale */
+  }
+  to {
+    transform: translateX(-100%); /* Décale toute la ligne vers la gauche */
+  }
+}

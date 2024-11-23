@@ -1,0 +1,26 @@
+/* app/components/Hero.module.css */
+ 
+
+.details {
+  margin-top: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo2{
+  display: flex;
+  justify-content: center;
+}
+
+.details div {
+  width: 33%;;
+}
+
+.herodetails {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 26px;
+
+}
