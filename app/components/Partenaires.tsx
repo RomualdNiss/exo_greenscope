@@ -16,6 +16,7 @@ const Partenaires= () => {
     '/images/partenaires/S.png',
   ]; 
   return (
+    <div className={styles.carouselcontainer}>
     <div className={styles.carousel}>
       <div className={styles.track}>
         {partners.map((partner, index) => (
@@ -27,7 +28,7 @@ const Partenaires= () => {
           />
         ))}
                 {/* Répéter une fois les mêmes images pour créer l'effet de boucle */}
-                {partners.map((partner, index) => (
+        {partners.map((partner, index) => (
           <img
             key={`partner-duplicate-${index}`}
             src={partner}
@@ -35,8 +36,10 @@ const Partenaires= () => {
             className={styles.partnerImage}
           />
         ))}
+        
 
       </div>
+    </div>
     </div>
   );
   };
