@@ -1,0 +1,15 @@
+/* app/components/Consultant.module.css */
+ 
+.consultantcontainer {
+  background-color:#3C4A41 ;
+  width: 100vw;
+  margin: 0;
+  padding-bottom: calc(148px - 24px);
+}
+
+.title {
+  padding-top:calc(120px - 24px) ;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}

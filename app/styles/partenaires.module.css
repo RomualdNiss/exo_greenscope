@@ -2,10 +2,9 @@
 
 .carouselcontainer {
   width: 0;
-  height: 0;
+  height: 180px;
 }
 .carousel {
-  position: relative;
   width: 100vw;
   height: 180px;
   display: flex;

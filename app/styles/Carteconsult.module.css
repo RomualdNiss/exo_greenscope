@@ -1,0 +1,31 @@
+/* app/components/Consultant.module.css */
+ 
+.card {
+    display: flex;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.detailsheader {
+    gap:20px;
+}
+.detailsheader > h3 {
+    width: 300px;
+}
+
+.details > p {
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #D6E0D3B2;
+
+}
