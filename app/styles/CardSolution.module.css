@@ -1,36 +1,57 @@
 /* app/components/CardSolution.module.css*/
 
 .card {
+    display: flex;
     width: 100%;
-    max-width: 600px;
-    background-color: #ffe5b4;
-    padding: 16px;
+    padding: 72px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 192px;
+    justify-content: space-between;
+  }
+
+  
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
-  .card h2 {
-    font-size: 24px;
-    color: #3c4a41;
-    margin-bottom: 8px;
+  
+  .card div h3 {
+    font-family: PP Neue Montreal;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 24px;
+    
   }
   
   .keywords {
     display: flex;
     gap: 8px;
-    margin-bottom: 16px;
   }
   
   .keyword {
-    background-color: #3c4a41;
-    color: white;
-    padding: 4px 8px;
+    color: transparent;
+    padding: 8px;
     border-radius: 12px;
     font-size: 12px;
+    height: 25px;
+    font-family: PP Neue Montreal;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12.5px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform:uppercase;
   }
   
   .card img {
-    width: 100%;
+    width: 492px;
     height: auto;
     margin-top: 16px;
     border-radius: 6px;

@@ -11,6 +11,8 @@ type SolutionData = {
   description: string;
   keywords: string[];
   image: string;
+  backgroundColor: string;
+  textColor: string;
 };
 
 const Solution: React.FC = () => {
@@ -21,25 +23,33 @@ const Solution: React.FC = () => {
       title: "ESG Data Solution",
       description: "Automatically collect data, launch campaigns, establish quality processes, and build an organization that mirrors your own, all within our platform.",
       keywords: ["Mot clé associé", "Mot clé associé"],
-      image: "/path-to-image-esg.png",
+      image: "/images/solution.png",
+      backgroundColor:"#FFDDA5",
+      textColor:"#453848",
     },
     {
       title: "Carbon Assessment",
       description: "Measure and track your carbon footprint with powerful analytics tools.",
-      keywords: ["Carbone", "Émissions"],
-      image: "/path-to-image-carbon.png",
+      keywords: ["Mot clé associé", "Mot clé associé"],
+      image: "/images/solution.png",
+      backgroundColor:"#3c4a41",
+      textColor:"#ffcccc",
     },
     {
       title: "CSRD",
       description: "Comply with the latest CSRD regulations effortlessly using our tools.",
-      keywords: ["Compliance", "Reporting"],
-      image: "/path-to-image-csrd.png",
+      keywords: ["Mot clé associé", "Mot clé associé"],
+      image: "/images/solution.png",
+      backgroundColor:"#ffcccc",
+      textColor:"#3c4a41",
     },
     {
       title: "Impact Analysis & Compliance",
       description: "Analyze your environmental and social impact with precision.",
-      keywords: ["Impact", "Analytics"],
-      image: "/path-to-image-impact.png",
+      keywords: ["Mot clé associé", "Mot clé associé"],
+      image: "/images/solution.png",
+      backgroundColor:"#453848",
+      textColor:"#ff9b6e",
     },
   ];
 
@@ -80,6 +90,8 @@ const Solution: React.FC = () => {
           description={activeSolution.description}
           keywords={activeSolution.keywords}
           image={activeSolution.image}
+          backgroundColor={activeSolution.backgroundColor}
+          textColor={activeSolution.textColor}
         />
       )}
     </div>
