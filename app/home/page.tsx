@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Partenaires from "../components/Partenaires";
 import Consultant from '../components/Consultant';
 import Solution from '../components/Solution';
+import Technology from '../components/Technology';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Partenaires />
         <Consultant />
         <Solution />
+        <Technology />
       </main>
     </div>
   );

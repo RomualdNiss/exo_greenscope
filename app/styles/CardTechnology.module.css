@@ -1,0 +1,71 @@
+/* app/components/CardTechnology.module.css*/
+
+.card {
+  display: flex;
+  border-radius: 8px;
+  padding: 40px;
+  width: 100%;
+  min-height: 330px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+
+.title {
+  font-family: PP Neue Montreal;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text {
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.learnMore {
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.learnMore:hover {
+  text-decoration: underline;
+}
+
+.arrow {
+  font-weight: bold;
+}

@@ -1,0 +1,21 @@
+/* app/components/Technology.module.css */
+
+.container {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  gap:72px;
+}
+
+.h1 {
+  max-width: 50%;
+}
+.cardcontainer {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+.cardcontainer > * {
+  width: 50%;
+}
