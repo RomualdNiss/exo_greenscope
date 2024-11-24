@@ -1,0 +1,50 @@
+/* app/components/Solution.module.css */
+.solutionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
+}
+
+.h2 {
+  color :#3C4A41;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  margin-top: 120px;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #3C4A4133;
+  border-radius: 100px;
+  padding: 8px;
+}
+
+.test {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 24px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3C4A41;
+}
+
+.activeTab {
+  background-color: #3C4A411A;
+}
+
+.inactiveTab {
+  background-color: transparent;
+}

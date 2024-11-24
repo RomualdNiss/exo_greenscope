@@ -1,0 +1,38 @@
+/* app/components/CardSolution.module.css*/
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffe5b4;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    color: #3c4a41;
+    margin-bottom: 8px;
+  }
+  
+  .keywords {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .keyword {
+    background-color: #3c4a41;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    border-radius: 6px;
+  }
+  

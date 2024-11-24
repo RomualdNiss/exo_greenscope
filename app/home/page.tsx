@@ -3,6 +3,7 @@ import Header from '../components/header';
 import Hero from "../components/Hero";
 import Partenaires from "../components/Partenaires";
 import Consultant from '../components/Consultant';
+import Solution from '../components/Solution';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Partenaires />
         <Consultant />
+        <Solution />
       </main>
     </div>
   );
