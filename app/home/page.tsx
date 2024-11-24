@@ -6,7 +6,11 @@ import Consultant from '../components/Consultant';
 
 export default function Home() {
   return (
-    <div>
+    <div style={{
+      height:"100%",
+    }}>
+
+
       <Header />
       <main className='centered'>
         <Hero />
