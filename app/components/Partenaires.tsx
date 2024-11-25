@@ -9,11 +9,11 @@ import '../styles/globals.css';
 const Partenaires= () => {
 
   const partners = [
-    '/images/partenaires/P.png',
-    '/images/partenaires/P-1.png',
-    '/images/partenaires/P-2.png',
-    '/images/partenaires/P-3.png',
-    '/images/partenaires/S.png',
+    './images/partenaires/P.png',
+    './images/partenaires/P-1.png',
+    './images/partenaires/P-2.png',
+    './images/partenaires/P-3.png',
+    './images/partenaires/S.png',
   ]; 
   return (
     <div className={styles.carouselcontainer}>
@@ -27,7 +27,7 @@ const Partenaires= () => {
             className={styles.partnerImage}
           />
         ))}
-                {/* Répéter une fois les mêmes images pour créer l'effet de boucle */}
+                {/* Répéter une fois les mêmes ./images pour créer l'effet de boucle */}
         {partners.map((partner, index) => (
           <img
             key={`partner-duplicate-${index}`}

@@ -10,7 +10,7 @@ const Header = () => {
     return (
       <header className={styles.header}>
         <div className={`marge flex ${styles.divheader}`}>
-            <img src="/images/Logo.png" alt="Logo Greenscope" width="215px" height="26px"></img>
+            <img src="./images/Logo.png" alt="Logo Greenscope" width="215px" height="26px"></img>
         <nav>
           <ul className={styles.navList}>
             <li><Link href="/">Solution</Link> <Dropdown/></li>

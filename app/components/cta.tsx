@@ -1,5 +1,3 @@
-import Link from "next/link";
-import headerstyles from '../styles/Header.module.css' ;
 import buttonstyles from  '../styles/button.module.css';
 import '../styles/globals.css';
 type CtaProps = {

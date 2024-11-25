@@ -16,7 +16,7 @@ const Hero= () => {
             <h1> Where ESG <br/> can be leveraged</h1>
           </div>
           <div className={`flex ${styles.logo2}`}>
-            <img src="/images/logo2.png" alt="Logo" height="64px" ></img>
+            <img src="./images/logo2.png" alt="Logo" height="64px" ></img>
           </div>
           <div className={`flex ${styles.herodetails}`}>
             <p>+500 companies use Greenscope </p>
