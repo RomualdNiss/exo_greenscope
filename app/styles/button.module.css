@@ -7,14 +7,24 @@
   display: flex;
   gap:8px;
   align-items: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .clair {
   border: solid 1px #946BB6;
   background-color: transparent;
+  &:hover{
+    background-color: #E2D4FE;
+    border: solid 1px #946BB6;
+    color: #946BB6;
+  }
 }
 
 .fonce {
   background-color: #E2D4FE;
   border: none;
+  &:hover{
+    background-color: transparent;
+    border: solid 1px #946BB6;
+  }
 }

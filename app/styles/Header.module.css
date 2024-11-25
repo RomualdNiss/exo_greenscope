@@ -1,14 +1,13 @@
 /* app/components/Header.module.css */
   
 .divheader {
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
   .navList {
     list-style-type: none;
     display: flex;
     gap: 24px;
-    margin-left:-35px ;
   }
   
   .navList li {

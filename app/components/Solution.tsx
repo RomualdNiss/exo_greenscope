@@ -74,7 +74,7 @@ const Solution: React.FC = () => {
             <button
             key={solution.title}
             onClick={() => handleSolutionClick(solution.title)}
-            className={`${styles.test} ${
+            className={`${styles.choix} ${
               selectedSolution === solution.title ? styles.activeTab : styles.inactiveTab
             }`}
           >

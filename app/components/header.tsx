@@ -19,6 +19,7 @@ const Header = () => {
             <li><Link href="/contact">About</Link></li>
           </ul>
         </nav>
+        <div></div>
         <Cta text="Demander une démo" mode="clair" height={40}></Cta>
         </div>
         

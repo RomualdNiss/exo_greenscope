@@ -1,7 +1,6 @@
 /* app/components/partenaires.module.css */
 
 .carouselcontainer {
-  width: 0;
   height: 180px;
 }
 .carousel {
@@ -13,21 +12,21 @@
 
 .track {
   display: flex;
-  gap: calc(100vw / 6 ); /* Espacement entre les images */
-  animation: scroll 20s linear infinite; /* Animation infinie */
+  gap: calc(100vw / 6 ); 
+  animation: scroll 20s linear infinite; 
 }
 
 .partnerImage {
-  height: 80px; /* Hauteur des images */
-  object-fit: contain; /* Garde les proportions des images */
-  flex-shrink: 0; /* Empêche la réduction des images */
+  height: 80px; 
+  object-fit: contain; 
+  flex-shrink: 0; 
 }
 
 @keyframes scroll {
   from {
-    transform: translateX(0); /* Position initiale */
+    transform: translateX(0); 
   }
   to {
-    transform: translateX(-50%); /* Décale toute la ligne vers la gauche */
+    transform: translateX(-54%); 
   }
 }

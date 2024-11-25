@@ -10,7 +10,9 @@ import Cta from './cta';
 const Hero= () => {
     return (
     <div className='marge'>
-        <DoubleImage />
+        <div className={styles.doubleImage}>
+          <DoubleImage />
+        </div>
         <div className={`flex ${styles.details}`}>
           <div>
             <h1> Where ESG <br/> can be leveraged</h1>
