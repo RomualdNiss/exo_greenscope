@@ -33,12 +33,12 @@ const Consultant = () => {
     },
   ];
 
-  // Mesure de la largeur d'une carte après le rendu
+
   useEffect(() => {
     if (containerRef.current) {
       const cardElement = containerRef.current.querySelector("div");
       if (cardElement) {
-        setCardWidth(cardElement.clientWidth + 24); // Ajoute la marge entre les cartes (24px dans ce cas)
+        setCardWidth(cardElement.clientWidth + 24);
       }
     }
   }, []);

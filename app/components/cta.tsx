@@ -1,9 +1,9 @@
 import buttonstyles from  '../styles/button.module.css';
 import '../styles/globals.css';
 type CtaProps = {
-    text: string; // Texte du bouton
-    mode: 'clair' | 'fonce'; // Mode clair ou foncé
-    height: number; // Hauteur du bouton en pixels
+    text: string; 
+    mode: 'clair' | 'fonce'; 
+    height: number; 
   };
   
   const Cta: React.FC<CtaProps> = ({ text, mode, height }) => {

@@ -27,7 +27,6 @@ const Partenaires= () => {
             className={styles.partnerImage}
           />
         ))}
-                {/* Répéter une fois les mêmes ./images pour créer l'effet de boucle */}
         {partners.map((partner, index) => (
           <img
             key={`partner-duplicate-${index}`}
